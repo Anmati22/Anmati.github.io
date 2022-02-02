@@ -1,0 +1,448 @@
+body{
+	font-family: Arial, sans-serif
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: #344051;
+}
+.logo{
+
+	color: #fff;
+	font-size:28px;
+	line-height:60px;
+	padding-left: 388px;
+	float: left;
+	
+}
+.menu 
+{
+	padding-left:350px ;
+	float:left;
+	
+}
+.menu li 
+{	
+	float:left;		 
+	line-height: 60px;
+	color: #fff;
+	margin-right:30px;
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.main{
+	width:100%;
+	height:100%;
+	background: url(../images/Парень.png) 90% 100%/auto 85% no-repeat , url(../images/фон.png) center/cover no-repeat;
+}
+.title__container{
+	float:left;
+	margin: 280px 0px 0px 320px;
+	color: #2c384a;
+	text-align: center;
+ }
+ .title__container h1{
+ 	font-size:60px;
+ 	font-weight:bold;
+
+ }
+ .title__container h4{
+ 	margin-top:40px;
+ 	font-size:22px;
+ 	color:#79818d;
+ }
+ .title__container input{
+ 	height:40px;
+ 	text-align:center;
+ 	border:2px solid #6d7682;
+ 	background: none;
+ 	border-radius: 5px;
+ 	color: #6d7682;
+ 	font-size:13px;
+ 	padding: 0px 16px;
+ 	margin: 40px 14px 0px 14px;
+
+ }
+
+ .one{
+ 	
+ 	background:url("../images/Черта загловка.png") center/cover no-repeat;
+ }
+
+ .one h3{
+ 	text-align: center;
+ 	font-size:26px;
+ 	color:#1a2f43;
+ 	margin:100px;
+ 	letter-spacing: -0.08em;
+
+	font-weight: 600;
+ }
+ 
+.one img {
+margin:0px 0px 0px 660px;
+}
+.one p {
+	margin:22px;
+	text-align:center;
+	padding-left:400px;
+	padding-right: 400px;
+}
+.icon {
+background-image: url("../images/иконка.png");
+padding-left : 20px;
+padding-bottom : 10px;
+background-repeat : no-repeat;
+}
+button{
+	margin:0px 0px 0px 690px;
+	border:2px solid #6f7180;
+	background:none;
+	border-radius:5px;
+	font-size:13px;
+	color:#6f7180;
+	padding:3px 8px;   
+}
+.skills{
+	width:100%;
+	height:100%;
+	margin:100px 0px 0px 0px;
+	background: url("../images/картинка фона что я умею.png") center/cover no-repeat;
+}
+.title__container2 h3{
+	float:left;
+	margin:100px 0px 0px 673px;  
+	font-size:26px;
+	color:#1a2e43;
+	padding-right:666px;
+	letter-spacing: -1.2px;
+	font-weight: 600;
+}
+.imag{
+	
+	margin-left: 262px;
+	
+}
+.title__container2 img{
+	float:left;	
+	margin:140px 170px 35px 50px;
+}
+
+
+.skil {  
+	clear: both;
+	margin-left:233px;
+	color: #e87600;
+	text-align: center;
+	line-height: 25px;	
+	font-size:14px;	
+}
+.title__container2 li{
+	padding-right: 60px;
+	float:left;
+	text-align: center;
+	
+
+}
+.title__container2 p{
+
+	padding:0px 0px 5px 0px;
+	line-height: 15px;
+	height:100px;
+	font-size:10px;
+	color:#38485b;
+	width:211px;
+}
+.projects h3{
+	margin-top: 100px;
+	font-size:26px;
+	text-align:center;
+	color:#2f4154;
+	clear:both;
+	letter-spacing: -1.2px;
+	font-weight: 600;
+}
+.projects p{
+	text-align:center;
+	margin-top:65px;
+	margin-bottom: 30px;
+	clear:both;
+	
+
+	
+}
+
+
+ .aboutproject{
+ 	margin-left: 175px;
+ 	line-height: 20px;
+ 	padding-right: 80px;
+ 	color:#2f4154;
+ 	padding-bottom: 116px;
+
+ }
+ 
+ .company{
+ 	float:left;
+padding-right: 120px;
+clear: both;
+ }
+ .company h3{
+   color:#2f4154;
+ }
+ .company h2{
+
+ 	color:#2f4154;
+ }
+ .company p{
+ 	color:#2f4154;
+ }
+ .name p{
+ 	color:#2f4154;
+ }
+ .кнопка button{
+ 	float: none;
+ 	margin:20px 1100px 0px 0px;
+ 	width:185px;
+ 	height:42px;
+ 	font-size: 16px; 
+ 	background: #00b6af;
+ 	color:#fff;
+ 	border-color: #00b6af;
+
+ }
+ .рамка {
+ 
+ 	display: inline-block center;
+ 	margin-left: 400px;
+ 	width:750px;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ 	border:2px solid #fff;	
+ 	margin-bottom: 35px;
+ 	
+ }
+ 
+ .рамка h2 {
+ 	margin-top: 35px;
+ 	margin-bottom: 55px;
+ 	text-align: center;
+ font-size: 32px;
+ letter-spacing: -1.2px;
+ color:#102031;
+ font-weight: 600;
+ }
+ .рамка h3{
+ 	text-align: left;
+ 	margin-left: 20px;
+ 	margin-bottom: 15px;
+ 	font-size: 22px;
+    color:#102031;
+
+ }
+ .рамка form{
+ 	text-align: left;
+ 	margin-left: 20px;
+ 	
+
+ }
+ .рамка select{
+ 	width: 705px;
+ 	height:40px;
+ 	border: 2px solid #eeeeee;
+ 	background: #eeeeee;
+ 	margin-bottom: 30px;
+
+
+ }
+ .рамка h6{
+ 	
+      border-top: 2px solid  #d2d2d2;
+      margin-bottom: 15px;
+      margin-left: 25px;
+      margin-right: 25px;
+ }
+
+ .рамка h5{
+ 	
+
+ 	text-align: left;
+ 	padding-bottom: 10px;
+ 	margin-left: 20px;
+ 	font-weight: 600;
+ 	color:#102032;
+ }
+ .рамка button{
+
+ 	border: 2px solid #00b6af;
+ 	width: 170px;
+ 	height:42px;
+ 	margin:20px 10px 30px 270px;
+ 	background:#00b6af;
+ 	font-size: 16px;
+ 	color:#fff;
+ }
+ .stata{
+ 	height: 499px;
+	background: url(../images/статистика.png)  no-repeat;
+ }
+ .заголовок5 h3{
+ 	color: #273b4e;
+ 	font-size:26px;
+ 	text-align: center;
+    padding-top: 100px;
+    margin-bottom: 125px;
+    letter-spacing: -1.2px;
+    font-weight: 600;
+
+ }
+ .statistic  img{
+ 	float:left;
+ 	margin-left:255px;
+    float:none;
+    margin-bottom: 33px;
+
+ 		
+ }
+ 
+ 
+ .statistic li{
+ 	float:left;
+ 	text-align: center;
+ 	margin-left: 207px;
+ 	font-size: 30px;
+ 	color:#283b4e;
+ 	
+
+ 	
+ }
+ .statistic p{
+ 	margin-top: 28px;
+ 	font-size: 12px;
+ 	letter-spacing: -1px;
+ 	color:#283b4e;
+ 	font-weight: 600;
+ }
+ .statistic h4{
+
+ 	font-weight: 800;
+ }
+ .comments h3{
+ 	text-align: center;
+ 	font-size: 26px;
+ 	margin-top: 90px;
+ 	letter-spacing: -1.2px;
+	font-weight: 600;
+	color:#283b4e;
+	margin-bottom: 90px;
+ }
+ .comments img{
+ 	margin-left:710px;
+ 	margin-bottom: 35px; 
+ }
+ .comments p{
+ 	text-align: center;
+ 	padding-bottom:35px; 
+ 	color:#283b4e;
+ }
+.information{
+	width: 100%;
+	height:808px;
+	background:  url(../images/contacts.png) center no-repeat;
+
+}
+.заголовок6 h3{
+	
+	text-align: center;
+	color:#fff;
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: -1.2px;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+.заголовок6 p{
+	text-align:center;
+	color:#fff;
+	margin-bottom: 46px;
+}
+
+.personaldata{
+	margin-left: 500px;
+	
+}
+.class1{
+	float:left;
+	text-align: center;
+	color:#fff;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	
+}
+.class2{
+	float:left;
+	text-align: center;
+	color:#fff;
+	padding-right: 50px;
+}
+.class3{
+	float:left;
+	text-align: center;
+	color:#fff;
+}
+.massege{
+	clear:both;
+	text-align: center;
+	color:#fff;
+}
+.form{
+	margin-top:50px;
+	padding-bottom: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.form input{	
+	width:350px;
+	height:35px;
+	padding-left: 10px; 
+	color: #5d5d5e;
+}
+.form form{
+	
+}
+.electronmessage{
+	text-align: center;
+}
+textarea{
+	resize: none;
+	width: 700px;
+	height: 95px;
+	padding-left: 5px;
+	padding-top:5px;
+	
+}
+.send button{
+	margin-top: 30px;
+	margin-left: 696px;
+	border: 2px solid #fff;
+ 	width: 125px;
+ 	height:40px;
+ 	font-size: 16px;
+ 	color:#fff;
+ 	
+	
+}
+
+
+footer{
+	width: 100%;
+	height: 60px;
+	background: #2c3e51;
+}
+.end p {
+	text-align:center;
+	color:#fff;
+	padding-top: 25px;
+
+}
