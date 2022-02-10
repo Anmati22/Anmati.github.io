@@ -14,6 +14,23 @@
 
 </head>
 <body>
+<div class="preloader">
+  <div class="preloader__row">
+    <div class = "loader"></div>
+
+  </div>
+</div>
+	
+<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script>
+
 <header>
 	<nav>
 		<div class = "logo"> Aндрей Браун </div>
@@ -28,14 +45,14 @@
 	</nav>
 </header>
 
-<div class = "main">
+<section class = "main">
 	<div class="title__container">
 	<h1> Привет <br> Я Андрей Браун </h1>
 	<h4> Фулл стек веб-разработчик </h4>
-	<input type = "submit" value = "Обо мне">
-	<input type = "submit" value = "Мои работы">
+	<input type = "button" value = "Обо мне">
+	<input type = "button" value = "Мои работы">
 	 
-</div></div>
+</div></section>
 
 <div class="one ">
 	<h3> ОБО МНЕ </h3>
@@ -43,11 +60,12 @@
 	<img src="images\фотка.png" alt="здесь должна быть моя фотография">
     <p>Lorem <span> Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Mollitia adipisci laborum provident ad a est illo minima, impedit voluptates deleniti. Amet recusandae omnis quas, vero, vel quibusdam perspiciatis similique quisquam?</span> sapiente harum aut error possimus, in sit,consequuntur vero</p> 
     <p><span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo non quo, commodi, voluptate nam debitis fugit nostrum neque earum iure autem eligendi corrupti iste, eos, porro cumque minus rerum.</span></p>
+	<div>
 	<a href="download.php" download>
     <button class="btn">
     	<i class="icon" ></i>Скачать резюме</button>
 </a>
-
+</div>
  </div>
 
 <div class="skills"><div class = "title__container2">
@@ -107,7 +125,7 @@
 		</div>
 	<div class = "кнопка">
 	 <form action="page/new.html" target="_blank">
-   <button>Перейти на сайт</button>
+   <button class = "visit">Перейти на сайт</button>
   </form>
 </div>
     </div>
@@ -160,10 +178,12 @@
     </div>
     <div class = "кнопка2">
 	 <form action="page/new.html" target="_blank">
-   <button>Оставить заявку</button>
+   <button class = "registred">Оставить заявку</button>
   </form>
 </div>
 </div>
+<div class= "parallax">
+	<div class = "parallax-content">
     <div class = "stata"> 
     	<div class = "заголовок5">
     	<h3>НЕМНОГО СТАТИСТИКИ</h3>
@@ -174,17 +194,15 @@
     		<img src="images\скобки.png" alt="скобки">
     		<img src="images\галочка.png" alt="галочка">
     		<img src="images\кубок.png" alt="кубок">
-			<li> <h4> 120</h4> <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>
-			
-			<li> <h4> 4,600 </h4> <p> ЧАСОВ РАБОТЫ</p> </li>
-			
-			<li> <h4>340</h4> <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>
-			
+			<li> <h4> 120</h4> <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>			
+			<li> <h4> 4,600 </h4> <p> ЧАСОВ РАБОТЫ</p> </li>			
+			<li> <h4>340</h4> <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>			
 			<li> <h4>23 </h4> <p> НАГРАД ПОЛУЧЕНО </p> </li>
 			
 		</ul></div>
+	</div>
     </div>
-
+    </div>
     <div class = "comments">
     	<h3> ОТЗЫВЫ </h3>
     	<hr width="72px" color="#eb7800" align="left" size="5">
@@ -231,7 +249,7 @@
     		</form>
     	</div>
     	<div class = "send">
-    		<button> Отправить </button>
+    		<button class = "transfer"> Отправить </button>
     	</div>
     </div>
     	<footer>
