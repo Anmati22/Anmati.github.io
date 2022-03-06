@@ -10,6 +10,7 @@
 	<title> Андрей Браун - Веб-разработчик </title>
 <link rel = "stylesheet" href = "css/reset.css">
 	<link rel = "stylesheet" href = "css/style.css">
+	<link rel = "stylesheet" href = "css/bootstrap.min.css">
 
 
 </head>
@@ -22,6 +23,7 @@
 </div>
 	
 <script>
+
   window.onload = function () {
     document.body.classList.add('loaded_hiding');
     window.setTimeout(function () {
@@ -33,8 +35,11 @@
 
 <header>
 	<nav>
-		<div class = "logo"> Aндрей Браун </div>
-		<div class="menu"><ul>
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-xxl-2 col-lg-3 col-7"><div class = "logo"> Aндрей Браун </div></div>
+				<div class = "px-0 col-xxl-6 col-xl-7 col-lg-8 col-sm-2 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+					<div class="menu"><ul>
 			<li><a href = "#"> Обо мне </a></li>
 			<li><a href = "#"> Услуги</a> </li>
 			<li><a href = "#"> Кейсы </a></li>
@@ -42,46 +47,118 @@
 			<li><a href = "#"> Отзывы</a></li>
 			<li><a href = "#"> Контакты </a></li>
 		</ul></div>
+	</div>
+<div class = "col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+	<div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href = "#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Навигация</a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <li><a class="dropdown-item" href="#"> Обо мне </a></li>
+  <li><a class="dropdown-item" href="#"> Услуги </a></li>
+  <li><a class="dropdown-item" href="#"> Кейсы </a></li>
+  <li><a class="dropdown-item" href="#"> Прайс </a></li>
+  <li><a class="dropdown-item" href="#"> Отзывы </a></li>
+  <li><a class="dropdown-item" href="#"> Контакты </a></li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+
+		
 	</nav>
 </header>
 
 <section class = "main">
-	<div class="title__container">
+	<div class="container h-100"><div class="row align-items-center h-100">
+		<div class="col-lg-6 mt-5 pt-5">
+		<div class="title__container mt-5">
 	<h1> Привет <br> Я Андрей Браун </h1>
 	<h4> Фулл стек веб-разработчик </h4>
 	<input type = "button" value = "Обо мне">
 	<input type = "button" value = "Мои работы">
 	 
-</div></section>
+</div>
+	</div></div></div>
+	 </section>
+<div class="container"><div class="row justify-content-center">
+	<div class = "col-12"><div class="one ">
+	<h3> ОБО МНЕ </h3></div></div></div>
+	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><hr></div></div>
+	<div class="row justify-content-center"><div class="col-xxl-2 col-xl-2 col-md-3"><div class="imag"><img src="images\фотка.png" alt="здесь должна быть моя фотография"></div></div></div>
+	
 
-<div class="one ">
-	<h3> ОБО МНЕ </h3>
-	<hr width="72px" color="#eb7800" align="left" size="5">
-	<img src="images\фотка.png" alt="здесь должна быть моя фотография">
+<div class="row justify-content-center"><div class="col-8 col-xxl-10 col-lg-9 col-md-10">
     <p>Lorem <span> Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Mollitia adipisci laborum provident ad a est illo minima, impedit voluptates deleniti. Amet recusandae omnis quas, vero, vel quibusdam perspiciatis similique quisquam?</span> sapiente harum aut error possimus, in sit,consequuntur vero</p> 
-    <p><span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo non quo, commodi, voluptate nam debitis fugit nostrum neque earum iure autem eligendi corrupti iste, eos, porro cumque minus rerum.</span></p>
-	<div>
-	<a href="download.php" download>
+    <p><span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo non quo, commodi, voluptate nam debitis fugit nostrum neque earum iure autem eligendi corrupti iste, eos, porro cumque minus rerum.</span></p></div></div>
+
+	<div class="row justify-content-center"><div class="col-xxl-2 col-xl-2 col-md-3 col-lg-3"> <a href="download.php" download>
+		<div class = "кнопка0">
     <button class="btn">
     	<i class="icon" ></i>Скачать резюме</button>
-</a>
-</div>
- </div>
-
-<div class="skills"><div class = "title__container2">
-	<h3> ЧТО Я УМЕЮ </h3>
-	<hr width="72px" color="#eb7800" align="left" size="5">
-
-	<div>
-		<ul>
-			<div class = "imag">
-			<img src="images\ноут.png" alt = "ноутбук">
-			<img src="images\знак.png" alt="знак">
-			<img src="images\ракета.png" alt="ракета">
-			<img src="images\граммофон.png" alt="граммофон">
-		</div>
+    </div>
+</a></div></div>
 		
+</div>
+
+
+<div class="skills">
+	<div class="container"><div class="row justife-content-center">
+	<div class = "title__container2">
+	<h3> ЧТО Я УМЕЮ </h3>
+
+	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><hr></div></div>
+	<div class="row justife-content-center"><div class=" px-0 offset-xxl-1 offset-xl-0 offset-md-0 col-xxl-11 col-xl-12 col-md-12 d-none d-lg-block"><div class = "imag">
+		<ul>
+			
+			<li><img src="images\ноут.png" alt = "ноутбук"></li>
+			<li><img src="images\знак.png" alt="знак"></li>
+			<li><img src="images\ракета.png" alt="ракета"></li>
+			<li><img src="images\граммофон.png" alt="граммофон"></li>
+		</ul>
+		</div>
+	</div>
+</div>
+<div class="row"><div class="offset-lg-1 col-lg-12 d-lg-none">
+	    <div class = "imag">
+		<ul>
+			
+			<li><img src="images\ноут.png" alt = "ноутбук"></li>
+			<li><img src="images\знак.png" alt="знак"></li>
+		</ul>
+		</div>
+
+		<div class = "skil">
+		<ul>
+			<li><h4> Веб-дизайн</h4>
+			<p>Lorem, ipsum dolor sit amet consectetur  <br> quis vel ex tempora dolorum eligendi,  <br> numquam, doloribus </p> </li>
+			
+			<li> <h4>Разработка</h4> 
+			<p>Lorem, ipsum dolor sit amet consectetur  <br> quis vel ex tempora dolorum eligendi, <br> numquam, facere aliquid veritatis doloribus </p></li>
+		</ul>
+	</div>
+
+		<div class="imag">
+		<ul>
+			<li><img src="images\ракета.png" alt="ракета"></li>
+			<li><img src="images\граммофон.png" alt="граммофон"></li>
+		</ul>
+	    </div>
+            <div class = "skil">
+		   <ul>
+	        <li> <h4>CEO - Оптимизация</h4> 
+			<p>Lorem, ipsum dolor sit amet consectetur.  <br> quis vel ex tempora dolorum eligendi,  <br> numquam, aliquid veritatis doloribus </p></li>
+			
+			<li> <h4> Маркетинг</h4>
+			<p>Lorem, ipsum dolor sit amet consectetur.  <br> quis vel ex tempora dolorum eligendi, <br> numquam, facere veritatis doloribus </p></li>
+            </ul>
+        </div>
+</div></div>
+    
+	
+		<div class="row justify-content-center w-100"><div class="col-xxl-12 col-xl-12 col-md-12 d-none d-lg-block">
 			<div class = "skil">
+				<ul>
 			<li><h4> Веб-дизайн</h4>
 			<p>Lorem, ipsum dolor sit amet consectetur  <br> quis vel ex tempora dolorum eligendi,  <br> numquam, doloribus </p> </li>
 			
@@ -93,42 +170,55 @@
 			
 			<li> <h4> Маркетинг</h4>
 			<p>Lorem, ipsum dolor sit amet consectetur.  <br> quis vel ex tempora dolorum eligendi, <br> numquam, facere veritatis doloribus </p></li>
-			</div>
-		
+            </ul>
+        </div>
+
+		</div></div>
 			
-		</ul>
 	</div>
 	</div>
 </div>
-
+	
+</div></div>
+<div class="container">
 <div class = "projects">
 	<h3> КЕЙСЫ </h3>
-	<hr width="72px" color="#eb7800" align="left" size="5">
+	<div class="row justify-content"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><div class="keys"><hr></div></div></div>
 	<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Optio eligendi mollitia, deserunt laboriosam quam, maiores!</p>
 	<div class = "block4">
-	<center>
+	
 	<img src="images\большая фотка.png" alt="фотография страницы проекта">
-	</center>
+	
 </div>
 	</div>
-	<div class = "aboutproject">
+	<div class="row"><div class="col-12">
+		
 		<div class = "company">
 		<h3><b><big> CLIENT:</big></b></h3>
 	<p>Какая-то компания</p>
 	<h3><b><big> WEBSITE:</big></b></h3>
 	<p> http://www.somedomain.com</p>
 </div>
+
+
+
+    <div class=" col-xxl-8 col-xl-11 col-lg-12">
 <div class = "name">
 		<h2><b>Название проекта</b></h2>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Tenetur, nobis suscipit maiores dolores<br> rerum dolorum quae quidem ducimus accusantium, sit.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet elit. Beatae, ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ipsum dolor, sit amet consectetur adipisicing elit.  dolorum quae quidem ducimus accusantium, sit.</p>
 		
 		</div>
+	</div>
+		</div></div>
 	<div class = "кнопка">
 	 <form action="page/new.html" target="_blank">
    <button class = "visit">Перейти на сайт</button>
   </form>
 </div>
     </div>
+    <div class="container">
+    <div class="row">
+    	<div class="offset-xxl-1 col-xxl-10 offset-xl-1 col-xl-10">
     <div class = "рамка">
     
     	<h2> Расчет стоимости </h2>
@@ -182,42 +272,68 @@
   </form>
 </div>
 </div>
+</div>
+</div>
+</div>
+
 <div class= "parallax">
+	<div class="container">
 	<div class = "parallax-content">
-    <div class = "stata"> 
-    	<div class = "заголовок5">
+		    	<div class = "заголовок5">
     	<h3>НЕМНОГО СТАТИСТИКИ</h3>
-    	<hr width="72px" color="#eb7800" align="left" size="6">
+    	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><hr></div></div>
     </div>
-    	<div class="statistic"><ul>
+    <div class="row"><div class="offset-xxl-1 offset-xl-1 offset-lg-1  col-xxl-11 col-xl-11 col-lg-11 col-md-12">
+    <div class="statistic">
+        <ul>
+    	<div class="statistic1">
+
     		<img src="images\смайл.png" alt="смайл">
+    		<li> <h4> 120</h4> <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>
+
+        </div> <div class="statistic2">
+
     		<img src="images\скобки.png" alt="скобки">
+            <li> <h4> 4,600 </h4> <p> ЧАСОВ РАБОТЫ</p> </li>
+
+        </div><div class="statistic3">
+
     		<img src="images\галочка.png" alt="галочка">
+    		<li> <h4>340</h4> <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>
+
+    	</div><div class="statistic4">
+
     		<img src="images\кубок.png" alt="кубок">
-			<li> <h4> 120</h4> <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>			
-			<li> <h4> 4,600 </h4> <p> ЧАСОВ РАБОТЫ</p> </li>			
-			<li> <h4>340</h4> <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>			
-			<li> <h4>23 </h4> <p> НАГРАД ПОЛУЧЕНО </p> </li>
-			
+    	    <li> <h4>23 </h4> <p> НАГРАД ПОЛУЧЕНО </p> </li>
+    			</div>
 		</ul></div>
+		</div></div>
 	</div>
-    </div>
-    </div>
+		</div>
+	</div>
+    
+<div class="container">
     <div class = "comments">
     	<h3> ОТЗЫВЫ </h3>
-    	<hr width="72px" color="#eb7800" align="left" size="5">
-    	<img src="images\фотка человека, оставившего отзыв.png" alt="фотография">
+    	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><hr></div></div>
+    	<div class="row justify-content-center"><div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2"><img src="images\фотка человека, оставившего отзыв.png" alt="фотография"></div>
     	<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Molestias, dicta placeat. Inventore <br> recusandae maiores voluptatum iste earum officia? Voluptates, delectus.</p>
     	<p><b>Михаил</b>,Ген директор ПАО "Газпром"</p>
+    	  </div>
     </div>
+</div>
+
+
     
     	<div class = "information">
+    		<div class="container">
     		<div class = "заголовок6">
      <h3> МОИ КОНТАКТЫ</h3>
-     <hr width="72px" color="#eb7800" align="left" size="5">
+     <div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2"><hr></div></div>
 
     	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, rem Rem est quia nam pariatur.</p>
     	</div>
+    	<div class="row "><div class="offset-xxl-2 offset-xl-2 offset-lg-1 offset-md-0 col-xxl-10 col-xl-10 col-lg-11 col-md-12">
     	<div class = "personaldata">
     		<div class = "personaldata2">
     		<ul>
@@ -234,6 +350,8 @@
     		</ul>
     		</div>
     	</div>
+    </div>
+</div>
     	<div class = "massege">
 
     		<h4> ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
@@ -248,13 +366,17 @@
     			<textarea placeholder="Cообщение" onfocus="placeholder='';" onblur="placeholder='Cообщение';" ></textarea>
     		</form>
     	</div>
+    	<div class="row justify-content-center"><div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3">
     	<div class = "send">
     		<button class = "transfer"> Отправить </button>
     	</div>
+    </div></div>
     </div>
+</div>
     	<footer>
     		<div class = "end">
     		<p>Copyrighting 2021 Андрей Браун. Design by Web</p>
     	</div></footer>
+    	<script src = "js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
