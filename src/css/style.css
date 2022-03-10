@@ -154,7 +154,9 @@ nav{
 }
 .main{
 	width:calc(100%-2%);
+
 	height:calc(100%);
+	min-height: 634px;
 	background: url(../images/Парень.png) 90% 100%/auto 85% no-repeat , url(../images/фон.png) center/cover no-repeat;
 
 }
