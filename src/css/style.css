@@ -286,8 +286,9 @@ nav{
  
 
  
-.one img {
-margin:60px 0px 0px 43.2%;
+.imag img {
+width:100%;
+margin-bottom:30px;
 }
 .one p {
 	margin:22px;
@@ -326,7 +327,6 @@ background: #2a3e51 !important;
 }
 .skills{
 	width:100%;
-	height:100%;
 	margin:100px 0px 0px 0px;
 	background: url("../images/картинка фона что я умею.png") center/cover no-repeat;
 		
@@ -335,7 +335,7 @@ background: #2a3e51 !important;
 	flex-wrap: wrap-reverse;
 }
 .title__container2 h3{
-	margin-top: 100px;
+	padding-top: 100px;
 	text-align:center;
 	font-size:26px;
 	color:#1a2e43;
@@ -353,98 +353,232 @@ background: #2a3e51 !important;
     margin-bottom: 60px !important;
     opacity:1 !important;
    }
- 
- 
- 
 
- 
- .imag img{
-
-  width:100%;
-  height:100%;
-  margin-bottom: 20px;
-
-  
- }
-
-
-
-
-.title__container2 img{
-	float:left;	
+.skil img{
+margin-top: 40px;
+margin-bottom: 40px;	
 	width:55px;
 	height:45px;
-	margin:140px 0px 35px 0px;
-	margin-left: 80px;
-	margin-right: 79px;
-
-
 
 }
 
-@media(max-width:1400px){
-	.title__container2 img{
-
-		margin-right: 75px;
-	}
-}
-@media(max-width: 1200px){
-	.title__container2 img{
-		margin-right: 45px;
-		margin-left:65px;
-	}
-}
-@media(max-width:993px){
-    .title__container2 img{
-    	margin-top:60px;
-    	margin-left:135px;
-    	margin-right: 55px;
-
-    }
-}
-
-
-.skil {  
-	clear: both;
+.skil1 {  
+	float:left;
 	color: #e87600;
-	margin-left: 100px;
 	text-align: center;
 	line-height: 25px;	
-	font-size:14px;
+	padding-right: 52px;
+	margin-left: 10px;
 		
 }
+
+
+.skil1 h4{
+	font-weight: 600;
+	font-size:18px;
+	margin-bottom: 20px;
+}
+.skil1 p{
+	font-size:16px;
+	color:#38485a;
+	letter-spacing: -1px;
+	width:100%;
+}
+.skil2 {  
+	float:left;
+	color: #e87600;
+	text-align: center;
+	line-height: 25px;	
+	padding-right: 52px;
+	margin-left: 10px;
+		
+}
+
+.skil2 h4{
+	font-weight: 600;
+	font-size:18px;
+	margin-bottom: 20px;
+}
+.skil2 p{
+	font-size:16px;
+	color:#38485a;
+	letter-spacing: -1px;
+}
+.skil3 {  
+	float:left;
+	color: #e87600;
+	text-align: center;
+	line-height: 25px;	
+	padding-right: 52px;
+	margin-left: 10px;
+		
+}
+
+
+.skil3 h4{
+	font-weight: 600;
+	font-size:18px;
+	margin-bottom: 20px;
+}
+.skil3 p{
+	font-size:16px;
+	color:#38485a;
+	letter-spacing: -1px;
+}
+.skil4 {  
+	float:left;
+	color: #e87600;
+	text-align: center;
+	line-height: 25px;		
+	
+		
+}
+
+
+.skil4 h4{
+	font-weight: 600;
+	font-size:18px;
+	margin-bottom: 20px;
+}
+.skil4 p{
+	font-size:16px;
+	color:#38485a;
+	letter-spacing: -1px;
+	margin-bottom: 90px;
+}
 @media(max-width: 1400px){
-	.skil{
-     margin-left: -10px;
-
+	.skil1{
+		padding-right: 40px;
+		
 	}
-
+	.skil1 p{
+        font-size:14px;
+	}
+	.skil2{
+		padding-right: 40px;
+	}
+	.skil2 p {
+		font-size:14px;
+	}
+	.skil3{
+		padding-right: 40px;
+	}
+	.skil3 p{
+		font-size:14px;
+	}
+	.skil4 p{
+		font-size:14px;
+	}
 }
 @media(max-width:1200px){
-	.skil{
-		margin-left: 10px;
+	.skil1{
+		padding-right: 35px;
+	}
+	.skil1 p{
+		font-size:12px;
+	}
+	.skil2{
+		padding-right:35px;
+	}
+	.skil2 p{
+		font-size:12px;
+	}
+	.skil3{
+		padding-right: 35px;
+	}
+	.skil3 p{
+		font-size:12px;
+	}
+	.skil4 p{
+		font-size:12px;
 	}
 }
-@media(max-width: 993px){
-	.skil{
-		margin-left: 47px;
-
-
-	}
+.skil10{
+	padding-right: 100px;
+}
+.skil10 img{
+margin-top: 40px;
+margin-bottom: 40px;	
+	width:55px;
+	height:45px;
 
 }
+.skil20{
+	float:left;
+}
+.skil20 img{
+margin-top: 40px;
+margin-bottom: 40px;	
+	width:55px;
+	height:45px;
 
-.skil h4{
-	font-weight: 600;
-	font-size:14px;
+}
+@media(max-width:992px){
+	.skil1{
+		margin-left:20px;
+		padding-right: 86px;
+	}
+	.skil3{
+		margin-left:20px;
+		padding-right: 100px;
+	}
+}
+@media(max-width:768px){
+	.skil1{
+		margin-left: 120px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+	.skil1 img{
+		margin-top: 30px;
+	}
+	.skil2{
+		margin-left: 113px;
+	}
+	.skil3{
+		margin-left:115px;
+	}
+	.skil4{
+		margin-left: 115px;
+	}
+}
+@media(max-width:576px){
+	.skil10{
+		width:100%;
+	}
+	.skil20{
+		width:100%;
+	}
+	.skil1{
+		margin-left: 35px;
+		line-height: 18px;
+		width: 100%;
+
+	}
+	
+	.skil2{
+		margin-left:31px;
+		padding-right:0px;
+		
+		line-height: 18px;
+		width:100%;
+	}
+	.skil3{
+		margin-left:-20px;
+		padding-right: 0px;
+		line-height: 18px;
+		width:100%;
+	}
+	.skil4{
+		margin-left:-20px;
+		
+		line-height: 18px;
+		width:100%;
+	}
 }
 .title__container2 li{
-
 	padding-right: 60px;
-	float:left;
-	
-	
-
+	float:left;		
 }
 .title__container2 p{
 
@@ -507,6 +641,7 @@ background: #2a3e51 !important;
 padding-right: 120px;
 
  }
+
  .company h3{
  	font-size:14px;
  	line-height: 0.8;
@@ -525,6 +660,21 @@ padding-right: 120px;
  }
  .name p{
  	color:#2f4154;
+ }
+ @media(max-width: 768px){
+.company{
+	padding-right: 0px;
+	float:left;
+
+}
+.name p{
+ font-size:12px;
+ float:left;
+}
+.name h2{	
+	clear:both;
+	
+}
  }
  .кнопка button{
  	float: none;
@@ -550,12 +700,8 @@ padding-right: 120px;
  .visit:active{
  	transform: scale(1.03) !important;
  }
- .рамка {
- 
- 	
- 	
- 	width:100%;
- 	height:760px;
+ .рамка { 		
+ 	width:100%; 	
  	box-shadow: 0 0 10px rgba(0,0,0,0.5);
  	border:2px solid #fff;	
  	margin-bottom: 35px;
@@ -615,26 +761,34 @@ padding-right: 120px;
  	font-weight: 600;
  	color:#102032;
  }
- .рамка button{
+ @media(max-width:768px){
+ 	.рамка h2{
+ 		font-size:26px;
+ 	}
+ 	.рамка h3{
+ 		font-size:14px;
+ 	}
+ 	.рамка select{
+ 		height:30px;
+ 	}
+ 	.рамка h5{
+ 		font-size:14px;
+ 	}
+
+  .рамка form{
+   font-size:13px;
+  }
+ }
+ .кнопка2 button{
 
  	border: 2px solid #00b6af;
- 	width: 195px;
+ 	width:100%;
  	height:45px;
- 	margin:20px 10px 30px 420px;
+ 	margin:20px 0px 30px 0px;
  	background:#00b6af;
  	font-size: 18px;
  	color:#fff;
  	border-radius: 5px !important;
- }
- @media(max-width: 1400px){
- 	.рамка button{
-     margin-left: 350px;
- 	}
- }
- @media(max-width: 992px){
- 	.рамка button{
- 		margin-left:230px;
- 	}
  }
  .registred{
  	transition:all 0.2s;
@@ -750,15 +904,16 @@ padding-right: 120px;
  	}
  	@media(max-width:992px){
  		.statistic1{
- 			padding-right: 40px;
+ 			padding-right: 34px;
  		}
  		.statistic2{
- 			padding-right: 40px;
+ 			padding-right: 34px;
  		}
  		.statistic3{
- 			padding-right: 40px;
+ 			padding-right: 34px;
  		}
  	}
+ 	
  	
  .statistic3 p{
  	margin-top: 15px;
@@ -792,6 +947,117 @@ padding-right: 120px;
     font-size:30px;
  	font-weight: 800;
  }
+
+@media(max-width: 768px){
+ 		.statistic1 h4{
+ 			margin-top: 10px;
+        font-size:25px;
+ 		}
+ 		.statistic1 p{
+ 	margin-top: 5px;
+ 	font-size: 12px;
+     }
+     .statistic1{
+     	padding-right: 118px;
+     	padding-bottom:0px;
+     }
+     .statistic2 h4{
+ 			margin-top: 10px;
+        font-size:25px;
+ 		}
+ 		.statistic2 p{
+ 	margin-top: 5px;
+ 	font-size: 12px;
+     }
+     
+     .statistic2{
+     	padding-right:30px;
+     	padding-bottom:0px;
+     }
+      .statistic3 h4{
+ 			margin-top: 10px;
+        font-size:25px;
+ 		}
+ 		.statistic3 p{
+ 	margin-top: 5px;
+ 	font-size: 12px;
+     }
+     
+     .statistic3{
+     	padding-left:5px;
+     	padding-right:112px;
+     }
+      .statistic4 h4{
+ 			margin-top: 10px;
+        font-size:25px;
+ 		}
+ 		.statistic4 p{
+ 	margin-top: 5px;
+ 	font-size: 12px;
+     }
+     
+     .statistic4{
+     	padding-right:0px;
+     }
+ 	}
+	@media(max-width:576px){
+ 		.statistic img{
+         width:50px;
+	     height:42px;
+ 		}
+ 		.statistic1{
+ 			width:50%;
+ 			margin-left: -20px;
+ 			padding-right: 0px;
+ 			padding-bottom: 0px;
+ 		}
+ 		.statistic1 h4{
+         font-size:18px;
+ 		}
+ 		.statistic1 p{
+ 			font-size:8px;
+ 			font-weight: 800;
+ 		}
+ 		.statistic2{
+ 			width:50%;
+ 			padding-right: 0px;
+ 		}
+ 		.statistic2 h4{
+         font-size:18px;
+ 		}
+ 		.statistic2 p{
+ 			font-size:8px;
+ 			font-weight: 800;
+ 		}
+ 		.statistic3{
+ 			width:50%;
+ 			margin-left: -20px;
+ 			padding-left: 0px;
+ 			padding-bottom:0px;
+ 			padding-right: 0px;
+ 		}
+ 		.statistic3 h4{
+         font-size:18px;
+ 		}
+ 		.statistic3 p{
+ 			font-size:8px;
+ 			font-weight: 800;
+ 		}
+ 		.statistic4{
+ 			width:50%;
+ 			padding-bottom: 0px;
+ 			margin-right: 0px;
+ 		}
+ 		.statistic4 h4{
+         font-size:18px;
+ 		}
+ 		.statistic4 p{
+ 			font-size:8px;
+ 			font-weight: 800;
+ 		}
+ 		
+ 	}
+
  .comments h3{
  	text-align: center;
  	font-size: 26px;
@@ -812,10 +1078,9 @@ padding-right: 120px;
  }
 .information{
 	width: 100%;
-	height:850px;
-	background:  url(../images/contacts.png) center no-repeat;
-
+	background:  url(../images/contacts.png) center/cover no-repeat;
 }
+
 .заголовок6 h3{
 	
 	text-align: center;
@@ -871,6 +1136,35 @@ padding-right: 120px;
 		padding-right: 105px;
 	}
 }
+@media(max-width: 768px){
+	.personaldata p {
+		font-size:12px;
+	}
+	.class1{
+		padding-right: 45px;
+	}
+	.class2{
+		padding-right:45px;
+	}
+}
+@media(max-width: 576px){
+	.class1{
+		float:left;
+		width:100%;
+		padding-right: 30px;
+	}
+	.class2{
+		float:left;
+		width:100%;
+		padding-right: 30px;
+		padding-bottom: 40px;
+	}
+	.class3{
+		width:100%;
+		padding-right: 30px;
+		padding-bottom: 40px;
+	}
+}
 .class3{
 	float:left;
 	text-align: center;
@@ -882,40 +1176,52 @@ padding-right: 120px;
 	color:#fff;
 }
 .form{
+	
 	margin-top:50px;
 	padding-bottom: 15px;
 	text-align: center;
 	box-sizing: border-box;
 }
-.form input{	
-	width:350px;
+.form1 input{
+    float:left;
+    width:49%;
+	margin-right: 2%;
+	margin-bottom: 15px;
+	padding-left: 10px;
 	height:35px;
-	padding-left: 10px; 
 	color: #5d5d5e;
+}
+.form2 input{
+	margin-right: 0%;
+}
+@media(max-width:576px){
+	.form1 input{
+		float:none;
+		width:270px;
+		margin-right: 0%;
+	}
 }
 
 .electronmessage{
 	text-align: center;
 }
 textarea{
+	width:100%;
 	resize: none;
-	width: 704px;
 	height: 95px;
 	padding-left: 5px;
 	padding-top:5px;
 	
 }
-@media(max-width: 992px){
-	.form input{
-		width:300px;
-	}
+@media(max-width: 576px){
 	textarea{
-		width:604px;
+		width:270px;
 	}
 }
 .send button{
 	margin-top: 30px;
 	margin-left: 35px;
+	margin-bottom: 165px;
 	border: 2px solid #fff;
  	width: 125px;
  	height:40px;
@@ -939,6 +1245,26 @@ textarea{
 		margin-left: 20px;
 	}
 }
+	@media(max-width: 768px){
+		.send button{
+			margin-left: 10px;
+		}
+	}
+	@media(max-width: 576px){
+		.send button{
+			margin-left: 0px;
+			width:100%
+
+		}
+
+	}
+	@media(max-width: 550px){
+		.information{
+	width: 100%;
+	background:  url(../images/contactsadaptation.png) center/cover no-repeat;
+}
+	}
+
 .transfer{
  	transition:all 0.2s;
  	transform: scale(1);
