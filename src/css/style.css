@@ -363,15 +363,14 @@ margin-bottom: 40px;
 	height:45px;
 
 }
+li{
+	 list-style-type: none;
+}
 
 .skil1 {  
-	float:left;
 	color: #e87600;
 	text-align: center;
 	line-height: 25px;	
-	padding-right: 52px;
-	margin-left: 10px;
-		
 }
 
 
@@ -384,16 +383,12 @@ margin-bottom: 40px;
 	font-size:16px;
 	color:#38485a;
 	letter-spacing: -1px;
-	width:100%;
 }
 .skil2 {  
-	float:left;
 	color: #e87600;
 	text-align: center;
 	line-height: 25px;	
-	padding-right: 52px;
-	margin-left: 10px;
-		
+	
 }
 
 .skil2 h4{
@@ -407,13 +402,9 @@ margin-bottom: 40px;
 	letter-spacing: -1px;
 }
 .skil3 {  
-	float:left;
 	color: #e87600;
 	text-align: center;
 	line-height: 25px;	
-	padding-right: 52px;
-	margin-left: 10px;
-		
 }
 
 
@@ -428,7 +419,6 @@ margin-bottom: 40px;
 	letter-spacing: -1px;
 }
 .skil4 {  
-	float:left;
 	color: #e87600;
 	text-align: center;
 	line-height: 25px;		
@@ -449,21 +439,11 @@ margin-bottom: 40px;
 	margin-bottom: 90px;
 }
 @media(max-width: 1400px){
-	.skil1{
-		padding-right: 40px;
-		
-	}
 	.skil1 p{
         font-size:14px;
 	}
-	.skil2{
-		padding-right: 40px;
-	}
 	.skil2 p {
 		font-size:14px;
-	}
-	.skil3{
-		padding-right: 40px;
 	}
 	.skil3 p{
 		font-size:14px;
@@ -473,21 +453,14 @@ margin-bottom: 40px;
 	}
 }
 @media(max-width:1200px){
-	.skil1{
-		padding-right: 35px;
-	}
 	.skil1 p{
 		font-size:12px;
 	}
-	.skil2{
-		padding-right:35px;
-	}
+
 	.skil2 p{
 		font-size:12px;
 	}
-	.skil3{
-		padding-right: 35px;
-	}
+	
 	.skil3 p{
 		font-size:12px;
 	}
@@ -495,91 +468,30 @@ margin-bottom: 40px;
 		font-size:12px;
 	}
 }
-.skil10{
-	padding-right: 100px;
-}
-.skil10 img{
-margin-top: 40px;
-margin-bottom: 40px;	
-	width:55px;
-	height:45px;
-
-}
-.skil20{
-	float:left;
-}
-.skil20 img{
-margin-top: 40px;
-margin-bottom: 40px;	
-	width:55px;
-	height:45px;
-
-}
-@media(max-width:992px){
-	.skil1{
-		margin-left:20px;
-		padding-right: 86px;
-	}
-	.skil2{
-		margin-right: 0px;
-		padding-right: 0px;
-	}
-	.skil3{
-		margin-left:20px;
-		padding-right: 100px;
-	}
-}
 @media(max-width:768px){
-	.skil1{
-		margin-left: 120px;
-		margin-right: 0px;
-		padding-right: 0px;
-	}
+	
 	.skil1 img{
 		margin-top: 30px;
 	}
-	.skil2{
-		margin-left: 113px;
-	}
-	.skil3{
-		margin-left:115px;
-	}
-	.skil4{
-		margin-left: 115px;
-	}
 }
 @media(max-width:576px){
-	.skil10{
-		width:100%;
-	}
-	.skil20{
-		width:100%;
-	}
-	.skil1{
-		margin-left: 35px;
+	
+	.skil1{	
 		line-height: 18px;
-		width: 100%;
 
 	}
 	
 	.skil2{
-		margin-left:31px;
-		padding-right:0px;
 		
 		line-height: 18px;
-		width:100%;
 	}
 	.skil3{
-		margin-left:-20px;
-		padding-right: 0px;
-		line-height: 18px;
-		width:100%;
-	}
-	.skil4{
-		margin-left:-20px;
 		
 		line-height: 18px;
-		width:100%;
+	}
+	.skil4{
+		
+		line-height: 18px;
 	}
 }
 .title__container2 li{
@@ -809,12 +721,11 @@ padding-right: 120px;
  	transform: scale(1.03);
  }
  .parallax-content{
- 	height:499px;
+ 	
  }
  .parallax {
  	background: url(../images/статистика1.png) center/cover no-repeat;
  	background-attachment: fixed;
- 	height:499px;
  	width:100%;
  	display:flex;
  	justify-content: center;
@@ -837,10 +748,9 @@ padding-right: 120px;
 
 }
 .statistic1{
-	float:left;
+	
 	text-align: center;
 	color:#283c4f;
-	padding-right: 152px;
 	margin-bottom: 33px;
 	padding-bottom: 40px;	
 }
@@ -858,10 +768,9 @@ padding-right: 120px;
  	font-weight: 800;
  }
  .statistic2{
-	float:left;
+	
 	text-align: center;
 	color:#283c4f;
-	padding-right: 152px;
 	margin-bottom: 33px;
 	padding-bottom: 40px;	
 }
@@ -879,47 +788,13 @@ padding-right: 120px;
  	font-weight: 800;
  }
  .statistic3{
-	float:left;
+	
 	text-align: center;
 	color:#283c4f;
-	padding-right: 152px;
+	
 	margin-bottom: 33px;
 	padding-bottom: 40px;	
 }
-@media(max-width:1400px){
-	.statistic1{
- 			padding-right: 100px;
- 		}
- 		.statistic2{
- 			padding-right: 100px;
- 		}
- 		.statistic3{
- 			padding-right: 100px;
- 		}
-}
- 	@media(max-width:1200px){
- 		.statistic1{
- 			padding-right: 50px;
- 		}
- 		.statistic2{
- 			padding-right: 50px;
- 		}
- 		.statistic3{
- 			padding-right: 50px;
- 		}
- 	}
- 	@media(max-width:992px){
- 		.statistic1{
- 			padding-right: 34px;
- 		}
- 		.statistic2{
- 			padding-right: 34px;
- 		}
- 		.statistic3{
- 			padding-right: 34px;
- 		}
- 	}
- 	
  	
  .statistic3 p{
  	margin-top: 15px;
@@ -934,7 +809,6 @@ padding-right: 120px;
  	font-weight: 800;
  }
  .statistic4{
-	float:left;
 	text-align: center;
 	color:#283c4f;
 	margin-bottom: 33px;
@@ -963,10 +837,7 @@ padding-right: 120px;
  	margin-top: 5px;
  	font-size: 12px;
      }
-     .statistic1{
-     	padding-right: 118px;
-     	padding-bottom:0px;
-     }
+     
      .statistic2 h4{
  			margin-top: 10px;
         font-size:25px;
@@ -974,11 +845,6 @@ padding-right: 120px;
  		.statistic2 p{
  	margin-top: 5px;
  	font-size: 12px;
-     }
-     
-     .statistic2{
-     	padding-right:30px;
-     	padding-bottom:0px;
      }
       .statistic3 h4{
  			margin-top: 10px;
@@ -988,11 +854,6 @@ padding-right: 120px;
  	margin-top: 5px;
  	font-size: 12px;
      }
-     
-     .statistic3{
-     	padding-left:5px;
-     	padding-right:112px;
-     }
       .statistic4 h4{
  			margin-top: 10px;
         font-size:25px;
@@ -1001,64 +862,28 @@ padding-right: 120px;
  	margin-top: 5px;
  	font-size: 12px;
      }
-     
-     .statistic4{
-     	padding-right:0px;
-     }
  	}
 	@media(max-width:576px){
- 		.statistic img{
-         width:50px;
-	     height:42px;
- 		}
- 		.statistic1{
- 			width:50%;
- 			margin-left: -20px;
- 			padding-right: 0px;
- 			padding-bottom: 0px;
- 		}
- 		.statistic1 h4{
-         font-size:18px;
+
+ 		
+ 		.statictic1{
+         padding-right: 30px;
  		}
  		.statistic1 p{
- 			font-size:8px;
  			font-weight: 800;
  		}
- 		.statistic2{
- 			width:50%;
- 			padding-right: 0px;
- 		}
- 		.statistic2 h4{
-         font-size:18px;
- 		}
+ 		
  		.statistic2 p{
- 			font-size:8px;
  			font-weight: 800;
  		}
- 		.statistic3{
- 			width:50%;
- 			margin-left: -20px;
- 			padding-left: 0px;
- 			padding-bottom:0px;
- 			padding-right: 0px;
- 		}
- 		.statistic3 h4{
-         font-size:18px;
- 		}
+ 		
+ 		
  		.statistic3 p{
- 			font-size:8px;
  			font-weight: 800;
  		}
- 		.statistic4{
- 			width:50%;
- 			padding-bottom: 0px;
- 			margin-right: 0px;
- 		}
- 		.statistic4 h4{
-         font-size:18px;
- 		}
+ 		
+ 		
  		.statistic4 p{
- 			font-size:8px;
  			font-weight: 800;
  		}
  		
