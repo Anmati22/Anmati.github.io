@@ -31,21 +31,26 @@
     }, 500);
   }
 </script>
-<script src="js/myScript.js"></script>
+
 
 <header>
 	<nav>
+
 		<div class = "container">
 			<div class = "row">
 				<div class = "col-xxl-2 col-lg-3 col-7"><div class = "logo"> Aндрей Браун </div></div>
 				<div class = "px-0 col-xxl-6 col-xl-7 col-lg-8 col-sm-2 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
-					<div class="menu"><ul>
-			<li><a href = "#"> Обо мне </a></li>
-			<li><a href = "#"> Услуги</a> </li>
-			<li><a href = "#"> Кейсы </a></li>
-			<li><a href = "#"> Прайс </a></li>
-			<li><a href = "#"> Отзывы</a></li>
-			<li><a href = "#"> Контакты </a></li>
+
+					<div class="menu">
+						<ul>
+						
+			<li><a class = "active" href = "#me"> Обо мне </a></li>
+			<li><a class = "" href = "#skillls"> Услуги</a> </li>
+			<li><a class = "" href = "#boxs"> Кейсы </a></li>
+			<li><a class = "" href = "#pay"> Прайс </a></li>
+			<li><a class = "" href = "#latter"> Отзывы</a></li>
+			<li><a class = "" href = "#cont"> Контакты </a></li>
+		
 		</ul></div>
 	</div>
 <div class = "col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
@@ -53,12 +58,12 @@
   <a class="btn btn-outline-secondary dropdown-toggle white-btn" href = "#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     Навигация</a>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-  <li><a class="dropdown-item" href="#"> Обо мне </a></li>
-  <li><a class="dropdown-item" href="#"> Услуги </a></li>
-  <li><a class="dropdown-item" href="#"> Кейсы </a></li>
-  <li><a class="dropdown-item" href="#"> Прайс </a></li>
-  <li><a class="dropdown-item" href="#"> Отзывы </a></li>
-  <li><a class="dropdown-item" href="#"> Контакты </a></li>
+  <li><a class="dropdown-item" href="#me"> Обо мне </a></li>
+  <li><a class="dropdown-item" href="#skillls"> Услуги </a></li>
+  <li><a class="dropdown-item" href="#boxs"> Кейсы </a></li>
+  <li><a class="dropdown-item" href="#pay"> Прайс </a></li>
+  <li><a class="dropdown-item" href="#latter"> Отзывы </a></li>
+  <li><a class="dropdown-item" href="#cont"> Контакты </a></li>
   </ul>
 </div>
 </div>
@@ -80,7 +85,42 @@
 	 
 </div>
 	</div></div></div>
+    
+
+    
+	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mail.ru" id = "openmodal">Открыть для заказа</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Не спеши уходить! Если останешься и оставишь заявку, то получишь скидку 50% на первый заказ. </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Электронная почта</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Описание заказа</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Отправить сообщение</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 	 </section>
+	 <section class = "section" id = "me">
 <div class="container"><div class="row justify-content-center">
 	<div class="one">
 	<h3> ОБО МНЕ </h3></div></div>
@@ -101,7 +141,8 @@
 		
 </div>
 
-
+</section>
+ <section class = "section"  id = "skillls">
 <div class="skills">
 	<div class="container">
 	<div class = "title__container2">
@@ -143,17 +184,48 @@
 </div>
 </div>			
 </div>	
-</div>
+</section> <section class = "section" id = "boxs">
+<div class = "keysu"></div>
+<div class="container" >
+<div class = "projects" >
 
-<div class="container">
-<div class = "projects">
+	
 	<h3> КЕЙСЫ </h3>
 	
 	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"><hr></div></div>
 	<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Optio eligendi mollitia, deserunt laboriosam quam, maiores!</p>
 	<div class = "block4">
 	
-	<img src="images\большая фотка.png" alt="фотография страницы проекта">
+
+
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images\большая фотка.png" class="d-block" alt="фотография страницы проекта">
+    </div>
+    <div class="carousel-item">
+      <img src="images\portfoliodesign1.jpg" class="d-block " alt="фотография страницы проекта">
+    </div>
+    <div class="carousel-item">
+      <img src="images\rukopisnyi_sait_portfolio_dlia_videooperatora.jpg" class="d-block " alt="фотография страницы проекта">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	
 	
 </div>
 	</div>
@@ -182,55 +254,66 @@
   </form>
 </div>
     </div>
+</section>
+ <section class = "section" id = "pay">
+	<div class = "price">0</div>
+    <div class="containerclean"></div>
     <div class="container">
     <div class="row">
     	<div class="offset-xxl-1 col-xxl-10 offset-xl-1 col-xl-10">
-    <div class = "рамка">
+    <div class = "рамка" >
     
     	<h2> Расчет стоимости </h2>
     	<h3> ТИП САЙТА </h3>
 
     	<form action = "#">
-     <select name="type" required="required">
+     <select name="" class = "service" data-price="1" id = "type" required="required">
   <option value=""> выберите пункт...</option> 
-  <option value="1"></option>
-  <option value="2"></option>
-  <option value="3"></option>
-  <option value="4"></option>
-  <option value="5"></option>
-  <option value="6"></option>
+  <option value="7000" >Одностраничный сайт</option>
+  <option value="8000"  >Сайт-визитка</option>
+  <option value="15000" >Имиджевый сайт</option>
+  <option value="7000" >Персональный сайт</option>
+  <option value="9000" >Онлайн-сервис</option>
+  <option value="15000" >Портал</option>
+  <option value="20000" >Веб-приложение</option>
 </select>
     	</form>
     	<h3> ДИЗАЙН </h3>
     	<form action = "#">
-     <select name="dis" required="required">
+     <select name="" class = "service" data-price="1" id = "dis" required="required">
   <option value=""> выберите пункт...</option> 
-  <option value="1"></option>
-  <option value="2"></option>
-  <option value="3"></option>
-  <option value="4"></option>
-  <option value="5"></option>
-  <option value="6"></option>
+  <option value="2000">Классический</option>
+  <option value="3000">Минимализм</option>
+  <option value="2000">Корпоративный</option>
+  <option value="1500">Информационный</option>
+  
 </select>
     	</form>
     	<h3> АДАПТИВНОСТЬ </h3>
     	<form action = "#">
-     <select name="adapt" required="required">
+     <select name="" class = "service" data-price="1" id = "adapt" required="required">
   <option value=""> выберите пункт...</option> 
-  <option value="1"></option>
-  <option value="2"></option>
-  <option value="3"></option>
-  <option value="4"></option>
-  <option value="5"></option>
-  <option value="6"></option>
+  <option value="3000" data-txt ="1">Требуется</option>
+  <option value="0" data-txt ="2">Не требуется</option>
 </select>
     	</form>
     	<div>
     		<h6></h6>
     	</div>
     <div>
-    	<h5> Сроки </h5>
-    	<h5> Стоимость </h5>
+    	<h5 class = "sroki"> Сроки </h5>
+          <form action = "#">
+    	<select data-price="1" class="service">
+  <option value=""> выберите пункт...</option>
+  <option value="10000">Как можно быстрее (1-2 недели)</option>
+  <option value="0">Сколько необходимо (15-25 дней)</option>
+  <option value="-5000">Нет острой необходимости(3-5 недель)</option>
+</select>
+</form>
+
+         <div>
+    	<h5 class = "stoimost"> Стоимость </h5><h5 class = "tcsena" id = "coinss"> 0 </h5>
+    	
     </div>
     <div class="row justify-content-center"><div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-7">
     <div class = "кнопка2">
@@ -260,45 +343,105 @@
     	<div class="statistic1">
 
     		<img src="images\смайл.png" alt="смайл">
-    		<li> <h4> 120</h4> <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>
+    		<div class="number" data-max="120">1</div>
+    		<li>  <p> СЧАСТЛИВЫХ КЛИЕНТОВ</p> </li>
 
         </div></div>
          <div class="  col-12 col-sm-6 col-md-3"><div class="statistic2">
 
     		<img src="images\скобки.png" alt="скобки">
-            <li> <h4> 4,600 </h4> <p> ЧАСОВ РАБОТЫ</p> </li>
+    		<div class = "number1" data-max = "4600">4000</div>
+            <li> <p> ЧАСОВ РАБОТЫ</p> </li>
 
         </div></div>
          <div class=" col-12 col-sm-6 col-md-3"><div class="statistic3">
 
     		<img src="images\галочка.png" alt="галочка">
-    		<li> <h4>340</h4> <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>
+    		<div class = "number2" data-max = "340">1</div>
+    		<li>  <p> ПРОЕКТОВ ЗАВЕРШЕНО</p> </li>
 
     	</div></div>
     	 <div class="  col-12 col-sm-6 col-md-3"><div class="statistic4">
 
     		<img src="images\кубок.png" alt="кубок">
-    	    <li> <h4>23 </h4> <p> НАГРАД ПОЛУЧЕНО </p> </li>
+    		<div class = "number3" data-max = "23">1</div>
+    	    <li> <p> НАГРАД ПОЛУЧЕНО </p> </li>
     			</div></div></div>
 		</div>
 		
 	</div>
 		</div>
 	</div>
-    
+</section> <section class = "section" id = "latter">
+	
+    <div class = "containercleantwo"></div>
 <div class="container">
     <div class = "comments">
     	<h3> ОТЗЫВЫ </h3>
+
     	<div class="row justify-content-center"><div class = "col-xxl-1 col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"><hr></div></div>
-    	<div class="row justify-content-center"><div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3"><img src="images\фотка человека, оставившего отзыв.png" alt="фотография"></div>
-    	<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Molestias, dicta placeat. Inventore <br> recusandae maiores voluptatum iste earum officia? Voluptates, delectus.</p>
+	
+
+
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+  <div class="carousel-inner">
+  	
+    <div class="carousel-item active">
+    	<div class="row justify-content-center">
+      <div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+      <img src="images\фотка человека, оставившего отзыв.png" class="d-block w-100" alt="photo"></div>
+
+    
+    <div class="row justify-content-center">
+<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Molestias, dicta placeat. Inventore <br> recusandae maiores voluptatum iste earum officia? Voluptates, delectus.</p>
     	<p><b>Михаил</b>,Ген директор ПАО "Газпром"</p>
-    	  </div>
-    </div>
+    	  </div></div></div>
+
+
+   <div class="carousel-item">
+    	<div class="row justify-content-center">
+      <div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+      <img src="images\слой1.png" class="d-block w-100" alt="photo"></div>
+
+    
+    <div class="row justify-content-center">
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Ratione, soluta.<br>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Molestias, dicta placeat. Inventore <br> recusandae maiores voluptatum iste earum officia? Voluptates, delectus.</p>
+    	<p><b>Виталий</b>,Ген директор ООО "Фатежский сад"</p>
+    	  </div></div></div>
+
+
+     <div class="carousel-item">
+    	<div class="row justify-content-center">
+      <div class="col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+      <img src="images\слой2.png" class="d-block w-100" alt="photo"></div>
+
+    
+    <div class="row justify-content-center">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero pariatur at, eos! Alias molestias <br>expedita modi, sapiente error unde soluta. Accusamus quae rem, eum!<br> Aliquam, laboriosam. Similique, numquam. Suscipit, aut!</p>
+    	<p><b>Виктор</b>, Стоматолог частной клиники "Здоровье"</p>
+    	  </div></div></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 
+
+
+    		
+    	
     
+</div>
+</div>
+
+    </section>
+    <section class = "section" id = "cont">
     	<div class = "information">
     		<div class="container">
     		<div class = "заголовок6">
@@ -355,10 +498,13 @@
     </div></div>
     </div>
 </div>
+</section>
     	<footer>
     		<div class = "end">
     		<p>Copyrighting 2021 Андрей Браун. Design by Web</p>
     	</div></footer>
+    	<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/myScript.js"></script>
     	<script src = "js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
