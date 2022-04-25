@@ -534,8 +534,6 @@ li{
 	}
 }
 .projects h3{
-	margin-top: 100px;
-	margin-bottom: 25px;
 	font-size:26px;
 	text-align:center;
 	color:#2f4154;
@@ -546,9 +544,8 @@ li{
 
 .projects p{
 	text-align:center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-size: 15px;
-	clear:both;
 	color:#2f4154 !important;
 	
 
@@ -562,43 +559,54 @@ li{
  
  
  .company{
- 	float:left;
- 	margin-top:10px;
-padding-right: 120px;
+
+ 	float:left !important;
+ 	margin-top:10px !important;
+padding-right: 100px !important;
 
  }
 
  .company h3{
- 	font-size:14px;
- 	line-height: 0.8;
+ 	text-align: left;
+ 	font-size:14px !important;
+ 	line-height: 0.8 !important;
    color:#2f4154;
  }
  .name h2{
- 	margin-top: 10px;
- 	line-height:0.8;
-    font-size:16px;
+ 	text-align: left;
+ 	margin-top: 10px !important;
+ 	line-height:0.8 !important;
+    font-size:16px !important;
  	color:#2f4154;
  }
  .company p{
- 	line-height: 0.8;
- 	font-size: 14px;
+ 	text-align: left;
+ 	line-height: 0.8 !important;
+ 	font-size: 14px !important ;
  	color:#2f4154;
  }
+ 
  .name p{
+ 	text-align: left;
  	color:#2f4154;
+ }
+ @media(max-width: 1000px){
+ 	.company{
+ 		padding-bottom: 30px;
+ 	}
  }
  @media(max-width: 768px){
 .company{
-	padding-right: 0px;
-	float:left;
+	padding-right: 0px !important;
+	float:left !important;
 
 }
 .name p{
- font-size:12px;
- float:left;
+ font-size:12px !important;
+ float:left !important;
 }
 .name h2{	
-	clear:both;
+	clear:both !important;
 	
 }
  }
@@ -920,9 +928,12 @@ padding-right: 120px;
 	color:#283b4e;
 	margin-bottom: 35px;
  }
- .carousel-control-prev-icon{
-   color:red !important;
-}
+ .comments span.carousel-control-next-icon ,.comments span.carousel-control-prev-icon {
+ 	background-color:gray !important;
+ }
+ .comments .carousel-control-next, .comments .carousel-control-prev {
+ 	align-items: flex-start !important;
+ }
 
  .comments img{
  width:100%;	
