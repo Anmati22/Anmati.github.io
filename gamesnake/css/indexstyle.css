@@ -1,0 +1,55 @@
+html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+header{
+ /*cursor:none;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #272125;
+    border-bottom: 1px solid #eaeaea;
+    
+}
+h1{
+  text-align: center;
+  color:white;
+}
+    /*Задаём глобальные параметры*/
+    body {
+      /*cursor:none;*/
+     background: #272125;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.one button {
+  
+  height: 90px;
+  width: 300px;
+  border: 0px;
+  background: #e74c3c;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;
+  margin-right: 100px;
+}
+.two button{
+	height: 90px;
+  width: 300px;
+  border: 0px;
+  background: #e74c3c;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;
+}
+
+button:hover {
+  background: #1d49aa;
+}

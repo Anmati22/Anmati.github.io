@@ -1,0 +1,123 @@
+
+html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+header{
+ /*cursor:none;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid #eaeaea;
+    
+}
+header h1{
+  text-align: center;
+  color:white;
+}
+button{
+  position:absolute;
+  margin-left: 20px;
+ margin-top: 10px;
+ height: 40px;
+  width: 150px;
+  border: 0px;
+  background: #e74c3c;
+  border-radius:7px;
+  padding: 10px;
+  color:white !important;
+  font-size:22px;
+  margin-right: 100px;
+
+}
+button:active{
+  background: #1d49aa;
+}
+button:hover {
+   tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+  background: #1d49aa;
+}
+    /*Задаём глобальные параметры*/
+    body {
+      /*cursor:none;*/
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .record{
+      margin-top: 100px;
+      margin-left: 1030px;
+      display: flex;
+      width:500px;
+      height:30px;
+
+    }
+ .record h2{
+ font-size:25px;
+width:150px;
+  color:white;
+  
+}
+
+.record h3{
+  font-size:25px;
+  width:50px;
+  color:white;
+}
+.table h2{
+  position:absolute;
+  color:white;
+  font-size:35px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.table h5{
+  position:absolute;
+  padding-top:-20px !important;
+  margin-left: 60px;
+  margin-top: 100px;
+  color:white !important;
+  font-size:25px;
+
+}
+.score{
+  height:30px;
+  margin-bottom: 50px;
+  margin-left: 1030px;
+display: flex;
+width:500px;
+}
+.score h2{
+  font-size:25px;
+  width:150px;
+  color:white;
+}
+.score h3{
+  font-size:25px;
+  width:50px;
+  color:white;
+}
+.record h4{
+  font-size:25px;
+  width:300px;
+  color:white;
+}
+    /*Делаем границу вокруг игрового поля*/
+    canvas {
+      border: 1px solid white;
+      
+    }
+  
+.names h1{
+  color:white;
+  display: flex;
+  font-size:25px;
+}
