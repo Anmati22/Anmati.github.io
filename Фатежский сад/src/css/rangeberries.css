@@ -90,7 +90,7 @@ nav{
 	text-decoration:none;
 	transform:scale(1);
 	transition: all 0.1s;
-	display: inline-block;
+	
 }
 .menu li .active{
 color: #8bd357 !important;
@@ -156,61 +156,127 @@ color: #8bd357 !important;
   color: white !important;
 }
 
+.page{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
 
-.dropbtn {
-  background-color: #39d36b;
-  color: white;
-  padding: 16px;
-  font-size: 22px;
-  border-radius: 8px;
-  border: none;
-  min-width: 200px;
-  height:50px;
+}
+.bg_fon{
+  background:url(../images/strawberry.jpg) 0 0 / cover no-repeat;
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index: -3;
+}
+.shadow_fon{
+  background-color: rgba(0,0,0,0.2);
+   height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -2;
+   
+}
+.sorts{
+  margin-top: 25px;
+  text-align: center;
+  color:white;
+  font-size: 45px;
+  padding-bottom: 80px;
+  font-weight:800;
+}
+.apples{
+  height:auto;
 }
 
-/* Контейнер <div> - необходим для размещения выпадающего содержимого */
-.dropdown {
-  position: relative;
-  display: inline-block;
+
+.description{
+  line-height:1.5em;
+  font-size:20px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wrapper, .wrapper1{
+  position: fixed;
+  width:100%;
+  margin-left: 4%;
+  font-weight:500;
+  
+    
+}
+.apples img{
+  height:280px;
+  width:330px;
 }
 
-/* Выпадающее содержимое (скрыто по умолчанию) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: green;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.wrapper .box{
+    border-radius: 25px;
+  width:28%;
+  height:500px;
+  line-height:50px;
+  text-align:center;
+  font-size:160%;
+  color:#fff;
+  position:absolute;
+  background: linear-gradient(to top, black, #39d36b);
+
 }
 
-/* Ссылки внутри выпадающего списка */
-.dropdown-content a {
-  color: #fff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.wrapper .box:nth-of-type(2){
+ 
+  left:32%; 
+  background: linear-gradient(to top, black, #39d36b);
+  
+}
+.wrapper .box:nth-of-type(3){
+  left:64%; 
+background: linear-gradient(to top, black, #39d36b);
 }
 
-/* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {background-color: #ddd;}
+.wrapper1 .box{
+border-radius: 25px;
+  width:28%;
+  height:500px;
+  line-height:50px;
+  text-align:center;
+  font-size:160%;
+  color:#fff;
+  position:absolute;
+  background: linear-gradient(to top, black, #39d36b);
+  top:550px;
+}
 
-/* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block;}
+.wrapper1 .box:nth-of-type(2){
+  top:550px;
+  
+  left:32%; 
+  background: linear-gradient(to top, black, #39d36b);
+  
+}
+.wrapper1 .box:nth-of-type(3){
+  top:550px;
+  left:64%; 
+  background: linear-gradient(to top, black, #39d36b);
+}
 
-/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
 footer{
-	height:50px;
-	width:100%;
-	background: linear-gradient(to bottom, black, #39d36b);
-	text-align: center;
-	color:#fff;
-	margin-top:1500px;
-	
-	
+  position: absolute;
+  width:100%;
+  text-align: center;
+  color:#fff;
+  margin-top:1500px;
+  
+}
+.end{
+background: linear-gradient(to bottom, black, #39d36b);
 }
 .end h3{
-	padding-top: 15px;
+  padding-top: 20px;
 }

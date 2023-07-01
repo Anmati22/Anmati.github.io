@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,15 +10,14 @@
 	<link rel = "stylesheet" href = "css/range.css">
 	<link rel = "stylesheet" href ="css/animate.min.css">
 	<link rel = "stylesheet" href = "css/bootstrap.min.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 </head>
 <body>
-	<script  src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
 	
-	<script src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
+	
+
 	<div class="preloader">
   <div class="preloader__image"></div>
 </div>
@@ -33,7 +33,11 @@
 			<div class = "px-0 col-xxl-10 col-xl-10 col-lg-11 col-md-12 offset-xxl-2 offset-xl-2 offset-lg-1 d-none d-md-block">
 		<ul>						
 			<li><a class = "" href = "index.html"> Главная </a></li>
-			<li><a class = "active" href = "range.html"> Наша продукция</a> </li>
+			<li><a class = "active" href = "range.html"> Наша продукция<i class="fa fa-angle-down" aria-hidden = "true"></i></a>
+			<ul class="submenu">
+        <li><a class = "active" href="range.html">Яблоко</a></li>
+        <li><a class = "" href="rangeberries.html">Ягоды</a></li>
+      </ul></li>
 			<li><a class = "" href = "garden.html"> Фатежский сад </a></li>
 			<li><a class = "" href = "contacts.html"> Контакты </a></li>	
 		</ul>
@@ -59,7 +63,8 @@
 <div class = "shadow_fon"></div>
 </div>
 
-<div class = "sorts">Представляем вашему вниманию сорта на выбор</div>
+
+<div class = "sorts">Представляем вашему вниманию сорта яблок на выбор</div>
 
 <div class = "apples">
 
@@ -89,8 +94,8 @@
     	Название данного сорта соответствует действительности. Плоды очень красивые, небольшого размера, максимум с мяч от большого тенниса.
     </p>
 	</div>
-
 </div>
+
 <div class = "wrapper1">
     <div class = "box" data-scroll-speed = "4">Былина
     	<p><img src = "images_sort_asortiment/bilina.jpg"></p>
@@ -115,7 +120,6 @@
     </p>
 </div>
 
-</div>
 
 <div class = "wrapper2">
     <div class = "box" data-scroll-speed = "4">Джонаголд
@@ -291,7 +295,7 @@
 		</div>
 		</footer>
 
-
+        <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/range.js"></script>
     	<script src = "js/bootstrap.bundle.min.js"></script>
     	<script src = "js/jquery.maskedinput.min.js"></script>
