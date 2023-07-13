@@ -9,6 +9,7 @@ window.onload = function () {
 
 
 // Функция для пролистывания колонок с разной скоростью.
+
 $(function(){
 	var boxes = $('.box'),
 	$window = $(window);
@@ -22,6 +23,7 @@ $(function(){
 		});
 	});
 });
+
 
 const scrollMaxValue = () => {
   const body = document.body;

@@ -312,14 +312,12 @@ to{
 
 	
 .parallax_mountain_1{
-	background:url(../images/front_apple_2.jpg) 0 0 / cover no-repeat;
-	
+	background:url(../images/front_apple_2.jpg) top center / cover no-repeat;
 	z-index: -3;
 }
 
 .parallax_mountain_2{
 	background:url(../images/apple_right.png) bottom right / 34.2% no-repeat;
-	
 	z-index: 1;
 }  
 .parallax_mountain_3{
